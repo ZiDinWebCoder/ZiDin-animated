@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 170, 190);
+}
+
+
+.container{
+    margin-top: 300px;
+}
+span{
+    font-size: 5em;
+    height: 200px;  
+    width: 100px; 
+    display: inline-block;
+    transition: 2s;
+    text-shadow: 0 0 10px rgba(43, 41, 41, 0.589);
+}
+
+span:hover{
+    transform: translateY(-100px);
+    transition: 0.2s;
+    text-shadow: 0 0 5px rgb(0, 255, 76),
+                0 0 10px rgb(0, 255, 76),
+                 0 0 20px rgb(0, 255, 76);
+}
